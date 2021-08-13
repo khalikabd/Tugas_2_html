@@ -1,0 +1,195 @@
+body {
+  background-color: #FFFFFF;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  height: 610px;
+  align-items: center;
+  font-family: "Heebo";
+  padding-right: 60px;
+  padding-left: 60px;
+  margin: 0;
+}
+header h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+  margin: 0 0 0 40px;
+}
+header p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243D;
+  text-align: justify;
+  margin: 40px;
+}
+header .circle {
+  border-radius: 50% !important;
+}
+header .img-thumbail {
+  padding: 0.25rem;
+  background-color: #EDF7FA;
+  border: 4px solid #EDF7FA;
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  display: flex;
+  background-color: #EDF7FA;
+  justify-content: center;
+  font-family: "Inter";
+  height: 396px;
+}
+main h2 {
+  color: #136223;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+main .contact p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #100101;
+}
+main .contact svg {
+  margin-right: 10px;
+}
+main .education {
+  margin: 0 182px;
+}
+main .education .list-edu h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.015em;
+  color: black;
+  margin-bottom: 6px;
+}
+main .education .list-edu p {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: black;
+  margin: 6px;
+}
+main .education .list-edu ul {
+  padding-left: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #52575C;
+  margin-top: 6px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+.projects h2 {
+  color: #136223;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  margin: 29px 0 46px 195px;
+}
+.projects hr {
+  width: 858px;
+  margin-left: 195px;
+  border: 1px solid #E0E0E0;
+  margin-bottom: 31px;
+}
+.projects .content {
+  margin-left: 195px;
+  display: flex;
+  font-family: "Heebo";
+}
+.projects .content .isi {
+  margin-left: 18px;
+}
+.projects .content .isi p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243D;
+}
+.projects .content .isi h1 {
+  margin-bottom: 16px;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243D;
+}
+.projects .content .isi .tahun {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+.projects .content .isi .tahun h4 {
+  font-style: normal;
+  font-weight: 900;
+  font-family: "Heebo";
+  font-size: 18px;
+  color: white;
+  height: 25px;
+  width: 62px;
+  background: #142850;
+  border-radius: 16px;
+  text-align: center;
+  margin: 0;
+}
+.projects .content .isi .tahun h3 {
+  margin: 0 0 0 26px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+}
+
+footer {
+  display: flex;
+  height: 182px;
+  font-family: "Heebo";
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+footer .sosmed {
+  margin-bottom: 2px;
+}
+footer svg {
+  margin: 20px;
+}
+footer a {
+  color: #21243D;
+  text-decoration: none;
+}
+footer p {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=app.css.map */

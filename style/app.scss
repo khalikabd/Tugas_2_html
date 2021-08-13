@@ -1,0 +1,230 @@
+$darkpurle : #21243D;
+$bg-information: #EDF7FA;
+$bg-main:#FFFFFF;
+$darkgreen:#136223;
+$black:#000000;
+$titlecontect:#8695A4;
+$light-black:#52575C;
+
+body{
+    background-color: $bg-main;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height: 610px;
+    align-items: center;
+    font-family: "Heebo";
+    padding-right: 60px;
+    padding-left: 60px;
+    margin: 0;
+
+    h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 60px;
+        color: $darkpurle;
+        margin: 0 0 0 40px;
+    }
+    p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        color: $darkpurle;
+        text-align:justify ;
+        margin: 40px;
+    }
+    
+    .circle{
+        border-radius: 50% !important;
+    }
+    .img-thumbail{
+        padding: .25rem;
+        background-color: #EDF7FA;
+        border: 4px solid #EDF7FA;
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+main{
+    display: flex;
+    background-color: $bg-information;
+    justify-content: center;
+    font-family: "Inter";
+    height: 396px;
+
+    
+
+    h2{
+        color: $darkgreen;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.015em;
+        text-transform: uppercase;
+
+
+    }
+    .contact{
+        p{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.05em;
+            color: #100101;
+        }
+        svg{
+            margin-right: 10px;
+        }
+    }
+    .education{
+        margin: 0 182px;
+
+        .list-edu{
+            h4{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.015em;
+                color:black;
+                margin-bottom: 6px;
+            }
+            p{
+                font-style: italic;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 15px;
+                color: black;
+                margin:6px;
+
+            }
+            ul{
+                padding-left: 15px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 15px;
+                color:$light-black;
+                margin-top:6px;
+            }
+        }
+    }
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+
+    h2{
+        color: $darkgreen;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.015em;
+        text-transform: uppercase;
+        margin: 29px 0 46px 195px;
+    }
+    hr{
+        width: 858px;
+        margin-left: 195px;
+        border: 1px solid #E0E0E0;
+        margin-bottom: 31px;
+    }
+    .content{
+        margin-left:195px ;
+        display: flex;
+        font-family: "Heebo";
+        
+        .isi{
+            margin-left: 18px;
+
+            p{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 23px;
+                color: $darkpurle;
+            }
+
+            h1{
+                margin-bottom: 16px;
+                margin-top: 0px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 44px;
+                color: $darkpurle;
+            }
+            .tahun{
+                margin-top: 0;
+                display: flex;
+                align-items: center;
+                
+
+                h4{
+                    // padding-top: 3px;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-family: "Heebo";
+                    font-size: 18px;
+                    // line-height: 60px;
+                    color: white;
+                    height: 25px;
+                    width: 62px;
+                    background: #142850;
+                    border-radius: 16px;
+                    text-align: center;
+                    margin: 0;
+                }
+                h3{
+                    margin: 0 0 0 26px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 29px;
+                    color: $titlecontect;
+
+                    
+                }
+            }
+        
+        }
+    }
+}
+
+
+
+footer{
+    display: flex;
+    height: 182px;
+    font-family: "Heebo";
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .sosmed{
+        margin-bottom: 2px;
+    }
+    svg{
+        margin:20px;
+    }
+    a{
+        color: $darkpurle;
+        text-decoration: none;
+    }
+    p{
+        
+        justify-content: center;
+    }
+}
